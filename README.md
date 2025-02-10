@@ -1,50 +1,39 @@
-# React + TypeScript + Vite
+# Image to Text Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React** application that extracts text from an image using **Tesseract.js**, an OCR (Optical Character Recognition) engine. It provides a user-friendly interface for uploading images and extracting text.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Upload an image and extract text using OCR  
+✅ Responsive and modern UI using **Tailwind CSS**  
+✅ Uses **Tesseract.js** for client-side text recognition  
+✅ Supports multiple image formats (JPG, PNG, etc.)  
+✅ Displays extracted text in a textarea  
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React.js** – Frontend framework
+- **Tesseract.js** – OCR engine for text extraction
+- **Tailwind CSS** – Styling framework
+- **Lucide-react** – Icons for UI design
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. **Click on the upload area** to select an image.  
+2. **The app will automatically process the image and extract text.**  
+3. **You can manually re-extract text using the "Extract Text" button.**  
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+--
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📬 Contact Me  
+📧 **Email**: [ipardaboyev574@gmail.com](mailto:ipardaboyev574@gmail.com)  
+💼 **Telegram**: [Islom Pardaboyev](https://t.me/islom_ipm)  
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+---
+
+## 📜 License  
+This project is **MIT licensed**. Feel free to use and modify it!  
+
+---
+
+### 🌟 **Don't forget to give a star ⭐ if you like it!** 
