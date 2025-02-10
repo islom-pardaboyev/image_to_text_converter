@@ -1,19 +1,17 @@
 # Image to Text Converter
 
-This is a **React** application that extracts text from an image using **Tesseract.js**, an OCR (Optical Character Recognition) engine. It provides a user-friendly interface for uploading images and extracting text.
+This is a **React** application that extracts text, an OCR (Optical Character Recognition) engine. It provides a user-friendly interface for uploading images and extracting text.
 
 ## Features
 
 ✅ Upload an image and extract text using OCR  
 ✅ Responsive and modern UI using **Tailwind CSS**  
-✅ Uses **Tesseract.js** for client-side text recognition  
 ✅ Supports multiple image formats (JPG, PNG, etc.)  
 ✅ Displays extracted text in a textarea  
 
 ## Technologies Used
 
 - **React.js** – Frontend framework
-- **Tesseract.js** – OCR engine for text extraction
 - **Tailwind CSS** – Styling framework
 - **Lucide-react** – Icons for UI design
 
